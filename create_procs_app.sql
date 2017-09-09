@@ -39,4 +39,4 @@ begin
 delete from sisvenda.cliente where nome=p_nome and cpf=p_cpf;
 commit;
 end;
-
+/
