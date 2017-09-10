@@ -1,3 +1,5 @@
+drop table log;
+
 create table log ( 
     Action_DaTe date
     , Pvs_name varchar2(15)
@@ -9,7 +11,7 @@ create table log (
     , IP_address varchar2(15)
 );
 
-
+drop trigger gr_trigger;
 create or replace trigger gr_trigger after grant or revoke on database
   declare
     priv  dbms_standard.ora_name_list_t;
