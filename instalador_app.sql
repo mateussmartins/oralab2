@@ -1,4 +1,5 @@
 --Script de instalação da estrutura de banco de dados da aplicação
+@controle_de_acesso.sql
 @create_user_app.sql
 @create_tabelas_app.sql
 @create_role_app.sql
