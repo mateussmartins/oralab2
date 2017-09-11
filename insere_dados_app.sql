@@ -1,7 +1,7 @@
-insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Tamara Hoff',01,'Portão',1000,'01133303080',6559316394304960,'martinsmateus88@gmail.com');
-insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Mateus Martins',02,'Portão',1000,'02813191035',6559316394304960,'martinsmateus88@gmail.com');
-insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Pedro Santo',03,'Portão',1000,'01133303080',6559316394304960,'martinsmateus88@gmail.com');
-insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Santos de Maria',04,'Portão',1000,'01133303080',6559316394304960,'martinsmateus88@gmail.com');
+insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito,email) values ('Tamara Hoff',01,'Portão',1000,'01133303080',6559316394304960,'martinsmateus88@gmail.com');
+insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito,email) values ('Mateus Martins',02,'Portão',1000,'02813191035',6559316394304960,'martinsmateus88@gmail.com');
+insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito,email) values ('Pedro Santo',03,'Portão',1000,'01133303080',6559316394304960,'martinsmateus88@gmail.com');
+insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito,email) values ('Santos de Maria',04,'Portão',1000,'01133303080',6559316394304960,'martinsmateus88@gmail.com');
 commit;
 insert into sisvenda.fornecedor (id,cnpj,nome) values (1,97201363000182,'A');
 insert into sisvenda.fornecedor (id,cnpj,nome) values (2,97201363000182,'B');
