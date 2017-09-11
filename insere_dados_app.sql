@@ -3,11 +3,11 @@ insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito,em
 insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito,email) values ('Pedro Santo',03,'Portão',1000,'01133303080',6559316394304960,'martinsmateus88@gmail.com');
 insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito,email) values ('Santos de Maria',04,'Portão',1000,'01133303080',6559316394304960,'martinsmateus88@gmail.com');
 commit;
-insert into sisvenda.fornecedor (id,cnpj,nome) values (1,97201363000182,'A');
-insert into sisvenda.fornecedor (id,cnpj,nome) values (2,97201363000182,'B');
-insert into sisvenda.fornecedor (id,cnpj,nome) values (3,97201363000182,'C');
-insert into sisvenda.fornecedor (id,cnpj,nome) values (4,97201363000182,'D');
-insert into sisvenda.fornecedor (id,cnpj,nome) values (5,97201363000182,'E');
+insert into sisvenda.fornecedor (id,cnpj,nome) values (1,'97201363000182','A');
+insert into sisvenda.fornecedor (id,cnpj,nome) values (2,'97201363000182','B');
+insert into sisvenda.fornecedor (id,cnpj,nome) values (3,'97201363000182','C');
+insert into sisvenda.fornecedor (id,cnpj,nome) values (4,'97201363000182','D');
+insert into sisvenda.fornecedor (id,cnpj,nome) values (5,'97201363000182','E');
 commit;
 insert into sisvenda.transacaecommerce (id,codcliente,produto,tipovenda,nrccredito) values (1,1,'TV','AVISTA', 6559316394304960);
 insert into sisvenda.transacaecommerce (id,codcliente,produto,tipovenda,nrccredito) values (2,1,'TV','AVISTA', 6559316394304960);
