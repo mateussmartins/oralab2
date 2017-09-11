@@ -1,7 +1,7 @@
-insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Tamara Hoff',01,'Portão',1000,01133303080,36908673523520);
-insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Mateus Martins',02,'Portão',1000,02233303090,6559316394304960);
-insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Pedro Santo',03,'Portão',1000,01233303080,6559316394304960);
-insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Santos de Maria',04,'Portão',1000,01122202090,6559316394304960);
+insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Tamara Hoff',01,'Portão',1000,'01133303080',6559316394304960);
+insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Mateus Martins',02,'Portão',1000,'02233303090',6559316394304960);
+insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Pedro Santo',03,'Portão',1000,'01233303080',6559316394304960);
+insert into sisvenda.cliente (nome,codcliente,endereco,salario,cpf,nrccredito) values ('Santos de Maria',04,'Portão',1000,'01122202090',6559316394304960);
 commit;
 insert into sisvenda.fornecedor (id,codforn,nome) values (1,1,'A');
 insert into sisvenda.fornecedor (id,codforn,nome) values (2,2,'B');
