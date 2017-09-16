@@ -1,0 +1,48 @@
+CREATE TABLESPACE DATA DATAFILE '/u01/app/ora11g/oradata/oralab/data01.dbf' SIZE 2G;
+    
+create user SISVENDA
+  identified by "12qwaszx"
+  default tablespace DATA
+  temporary tablespace TEMP
+  profile DEFAULT;
+-- Grant/Revoke role privileges 
+grant connect to SISVENDA;
+grant resource to SISVENDA;
+-- Grant/Revoke system privileges 
+grant unlimited tablespace to SISVENDA;
+
+
+create table SISVENDA.CLIENTE
+(
+  NOME VARCHAR2(30),
+  CODCLIENTE   NUMBER,
+  ENDERECO   VARCHAR2(100),
+  SALARIO   NUMBER,
+  CPF  NUMBER,
+  NRCCREDITO NUMBER
+);
+
+create table SISVENDA.PRODUTO
+(
+  ID NUMBER,
+  DESCRICAO   VARCHAR2(100),
+  REFERENCIA   NUMBER
+);
+
+create table SISVENDA.TRANSACAOONLINE
+(
+  ID NUMBER,
+  CODCLIENTE   NUMBER,
+  PRODUTO   VARCHAR2(100),
+  TIPOVENDA    VARCHAR2(100),
+  NRCCREDITO NUMBER
+  );
+  
+  create table SISVENDA.TRANSACAECOMMERCE
+(
+  ID NUMBER,
+  CODCLIENTE   NUMBER,
+  PRODUTO   VARCHAR2(100),
+  TIPOVENDA    VARCHAR2(100),
+  NRCCREDITO NUMBER
+  );
