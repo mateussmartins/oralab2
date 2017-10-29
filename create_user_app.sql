@@ -4,7 +4,7 @@ create user SISVENDA
   identified by "12qwaszx"
   default tablespace DATA
   temporary tablespace TEMP
-  profile DEFAULT;
+  profile APP_USER;
 -- Grant/Revoke role privileges 
 grant connect to SISVENDA;
 grant resource to SISVENDA;

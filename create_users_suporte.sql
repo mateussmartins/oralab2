@@ -4,7 +4,7 @@ create user SUPORTE_01
   identified by "12qwaszx"
   default tablespace USERS
   temporary tablespace TEMP
-  profile DEFAULT;
+  profile SUP_USER;
 -- Grant/Revoke role privileges 
 grant connect to SUPORTE_01;
 -- Grant/Revoke system privileges 
