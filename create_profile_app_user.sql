@@ -1,4 +1,4 @@
-drop profile APP_USER;
+drop profile APP_USER cascade;
 create profile APP_USER limit
 sessions_per_user unlimited
 password_lock_time 1

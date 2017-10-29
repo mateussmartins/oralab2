@@ -1,4 +1,4 @@
-drop profile SUP_USER;
+drop profile SUP_USER cascade;
 create profile SUP_USER limit
 sessions_per_user 2
 password_lock_time 3
