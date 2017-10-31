@@ -1,4 +1,5 @@
 --Script de instalação da estrutura de banco de dados da aplicação
+alter system set current_schema=SYSTEM;
 @controle_de_acesso.sql
 @create_profile_app_user.sql
 @create_profile_sup_user.sql
@@ -12,4 +13,5 @@
 @insere_dados_app.sql
 @create_role_redaction.sql
 --@instalador_redaction_polices.sql
+alter system set current_schema=SYS;
 EXEC UTL_RECOMP.recomp_serial('SISVENDA');
