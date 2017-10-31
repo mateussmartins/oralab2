@@ -11,5 +11,5 @@
 @create_procs_app.sql
 @insere_dados_app.sql
 @create_role_redaction.sql
-@instalador_redaction_polices.sql
+--@instalador_redaction_polices.sql
 EXEC UTL_RECOMP.recomp_serial('SISVENDA');
