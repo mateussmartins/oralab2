@@ -11,3 +11,4 @@
 @create_procs_app.sql
 @insere_dados_app.sql
 @create_role_redaction.sql
+@instalador_redaction_polices.sql
