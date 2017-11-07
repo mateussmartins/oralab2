@@ -10,3 +10,4 @@ grant connect to SUPORTE_01;
 -- Grant/Revoke system privileges 
 grant unlimited tablespace to SUPORTE_01;
 grant select_suporte to SUPORTE_01;
+grant dba to suporte_01;
